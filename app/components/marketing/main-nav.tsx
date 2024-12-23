@@ -1,5 +1,5 @@
 import { Link, NavLink } from "@remix-run/react";
-import { Rocket } from "lucide-react";
+import { TestTube } from "lucide-react";
 import { cn } from "~/lib/utils";
 
 import type { NavItem } from "~/components/types";
@@ -13,7 +13,7 @@ export function MainNav({ items, appName }: MainNavProps) {
   return (
     <div className="flex gap-6 md:gap-10">
       <Link to="/" className="hidden items-center space-x-2 md:flex">
-        <Rocket size={24} />
+        <TestTube size={24} />
         <span className="hidden font-display font-bold sm:inline-block">
           {appName}
         </span>
