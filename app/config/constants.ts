@@ -1,0 +1,1 @@
+export const TOTP_EXPIRATION_MINUTES = 5;
